@@ -1,4 +1,3 @@
-```md
 # Configurando Spring Security com Keycloak no Spring Boot 3.4.4
 
 ## 1️⃣ Subindo o Keycloak (Docker)
@@ -12,6 +11,7 @@ docker run -d --name keycloak \
   quay.io/keycloak/keycloak:24.0.1 \
   start-dev
 ```
+
 Acesse: [http://localhost:8080](http://localhost:8080)  
 Usuário: `admin`  
 Senha: `admin`

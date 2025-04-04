@@ -58,6 +58,19 @@
   - **Usuário**: `admin`
   - **Senha**: `admin`
 
+- Autenticando a API:
+```
+curl --location 'http://localhost:8080/realms/master/protocol/openid-connect/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=spring-app' \
+--data-urlencode 'grant_type=client_credentials' \
+--data-urlencode 'client_secret=SEnj4a6furL6RaT1CYAOlCulXXbUmy1A'
+``` 
+- Consumindo a API:
+```sh
+curl --location 'http://localhost:8081/users' \
+--header 'Authorization: Bearer <SEU_ACCESS_TOKEN>'
+```
 ### Gerando o architype desta aplicação
 [Aqui](https://github.com/leokenzley/tempapiclearch/tree/main/.dev/architype)
 
