@@ -1,0 +1,8 @@
+README.md
+pom.xml
+src/main/java/com/leokenzley/templatesecapi/api/ApiUtil.java
+src/main/java/com/leokenzley/templatesecapi/api/PublicApi.java
+src/main/java/com/leokenzley/templatesecapi/api/UsersApi.java
+src/main/java/com/leokenzley/templatesecapi/model/Error.java
+src/main/java/com/leokenzley/templatesecapi/model/UserRequest.java
+src/main/java/com/leokenzley/templatesecapi/model/UserResponse.java
