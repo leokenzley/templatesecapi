@@ -1,4 +1,4 @@
-# Java e Clean Architecture OpenAPI Swagger. 
+# Java, Clean Architecture e Keycloak community. 
 
 ## Tecnologias Utilizadas
 
@@ -11,6 +11,8 @@
 - **Jackson Databind**: 2.13.0
 - **Hibernate Validator**: 8.0.0.Final
 - **OpenAPI Generator Maven Plugin**: 6.6.0
+- **Keycloak**: 24.0.1
+- **Spring Security**
 
 ## Como Executar a Aplicação
 
